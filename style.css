@@ -1,0 +1,140 @@
+.fondo {
+    background-color: rgb(255, 236, 236);
+    text-align: center;
+    border-color: white;
+    border: 3em solid rgb(5, 5, 5);
+}
+
+body{
+    margin: 0em;
+    padding: 0em;
+    background-color: #ff0000;
+}
+
+.titulo {
+    background-color: white;
+    padding-bottom: 1%;
+    padding-top: 7%;
+}
+
+.caja-equipos {
+    border: 0.2em solid white;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+.caja-equipos ul {
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+.caja-equipos li { display: inline-block; text-decoration:  none;
+}
+.vegas-publicidad li { display: inline-block; text-decoration:  none;
+}
+
+.logos {
+    width: 5em;
+}
+
+.espacio-logos{
+    width: 5em;
+}
+.vegas {
+    width: 90em;
+}
+
+.camiseta {
+    width: 40em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main{
+    margin: 0,5em;
+    background-color: #fff;
+    padding-bottom: 1em;
+    padding: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.chat{
+    background-color: beige;
+    margin: 1em;
+    border-radius: 1em;
+    border: 0.2em solid rgb(255, 255, 255);
+    text-size-adjust: 1em;
+}
+
+
+.caja-verde {
+    margin-left: 60%;
+    border: 0.2em solid black;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: greenyellow;
+}
+
+.title {
+    font-weight: bolder;
+    color: white;
+    background-color: #000000;
+    padding: 0.5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
