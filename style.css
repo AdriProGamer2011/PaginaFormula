@@ -2,7 +2,7 @@
     background-color: rgb(255, 236, 236);
     text-align: center;
     border-color: white;
-    border: 3em solid rgb(5, 5, 5);
+    border: 3em solid rgb(151, 2, 2);
 }
 
 body{
@@ -40,7 +40,7 @@ body{
     background-color: white;
     margin: 1em;
     padding: 1em;
-    background-color: #ffffff;
+    
 }
 
 .caja-equipos ul {
@@ -79,6 +79,60 @@ justify-content: center;
     color: #147900;
 }
 
+.texto-mclaren{
+    font-size: 3em;
+    font-style:oblique;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    color:#f78e05;
+}
+
+.letra-mclaren{
+    font-size: 50%;
+    color: #cf8e00;
+}
+
+.texto-f1{
+    font-size: 3em;
+    font-style:oblique;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    color:#990505;
+}
+
+.letra-f1{
+    font-size: 50%;
+    color: #990505;
+}
+
+.texto-mercedes{
+    font-size: 3em;
+    font-style:oblique;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    color:#201f1f;
+}
+
+.letra-mercedes{
+    font-size: 50%;
+    color: #201f1f;
+}
+
+.texto-redbull{
+    font-size: 3em;
+    font-style:oblique;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    color:#005cb3;
+}
+
+.letra-redbull{
+    font-size: 50%;
+    color: #005cb3;
+}
+
+
+
 .Popular-publicidad li {
     display: inline-block;text-decoration: none;
     border: 2% #000000;
@@ -91,9 +145,22 @@ justify-content: center;
     padding: 1em;
 }
 
-.Ultimo-publicidad{
+.Ultimo-publicidad {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.Ultimo-publicidad-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Ultimo-publicidad li {
+    display: inline-block; text-decoration:  none;
+}
+
+.Ultimo-publicidad-2 li {
+    display: inline-block; text-decoration:  none;
 }
 
 .logos {
