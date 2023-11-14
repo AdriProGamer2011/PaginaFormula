@@ -13,8 +13,22 @@ body{
 
 .titulo {
     background-color: white;
-    padding-bottom: 1%;
+    padding-bottom: 10%;
     padding-top: 7%;
+}
+.letratitulo{
+    font-size: 400%;
+}
+
+.Comprar-por-equipos{
+    padding-top: 15em;
+    padding-bottom: 1%;
+    margin-right: 39%;
+    font-style: oblique;
+}
+.letraequipos{
+    font-size: 3em;
+    color: #990505;
 }
 
 .caja-equipos {
@@ -35,9 +49,51 @@ body{
 justify-content: center;
 }
 
-.caja-equipos li { display: inline-block; text-decoration:  none;
+.caja-equipos li { 
+    display: inline-block; text-decoration:  none;
 }
-.vegas-publicidad li { display: inline-block; text-decoration:  none;
+.vegas-publicidad li {
+    display: inline-block; text-decoration:  none;
+}
+
+.texto-vegas{
+    margin-right: 39%;
+    font-size: 3em;
+    font-style:oblique;
+    padding-bottom: 3%;
+    padding-top: 7%;
+    color:#975d06;
+}
+
+.texto-aston{
+    font-size: 3em;
+    font-style:oblique;
+    padding-bottom: 3%;
+    padding-top: 7%;
+    color:#147900;
+    margin-top: 0.2%;
+}
+
+.letraaston{
+    font-size: 108%;
+    color: #147900;
+}
+
+.Popular-publicidad li {
+    display: inline-block;text-decoration: none;
+    border: 2% #000000;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #000000;
+    margin: 1em;
+    padding: 1em;
+}
+
+.Ultimo-publicidad{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .logos {
