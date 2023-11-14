@@ -131,7 +131,16 @@ justify-content: center;
     color: #005cb3;
 }
 
-
+.circuito{
+    font-size: 2em;
+    font-style:oblique;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    color: #f5bc03;
+}
+.link-circuito{
+    padding-top: 1.5em;
+}
 
 .Popular-publicidad li {
     display: inline-block;text-decoration: none;
