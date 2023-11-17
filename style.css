@@ -6,29 +6,30 @@
 }
 
 body{
-    margin: 0em;
-    padding: 0em;
-    background-color: #ff0000;
+ padding: 0%;
 }
 
 .titulo {
     background-color: white;
     padding-bottom: 10%;
     padding-top: 7%;
+    
 }
 .letratitulo{
     font-size: 400%;
+    text-shadow: 10px 6px 5px #000000;
 }
 
 .Comprar-por-equipos{
     padding-top: 15em;
     padding-bottom: 1%;
-    margin-right: 39%;
+    text-align: right 39%;
     font-style: oblique;
 }
 .letraequipos{
     font-size: 3em;
     color: #990505;
+    text-shadow: 5px 9px 5px #6b0707;
 }
 
 .caja-equipos {
@@ -38,7 +39,7 @@ body{
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     background-color: white;
-    margin: 1em;
+    text-align: 1em;
     padding: 1em;
     
 }
@@ -57,12 +58,17 @@ justify-content: center;
 }
 
 .texto-vegas{
-    margin-right: 39%;
+    text-align: left;
     font-size: 3em;
     font-style:oblique;
     padding-bottom: 3%;
     padding-top: 7%;
     color:#975d06;
+    text-shadow: 5px 1px 5px #da710f;
+}
+
+.letra-vegas{
+   text-align: left;
 }
 
 .texto-aston{
@@ -77,6 +83,7 @@ justify-content: center;
 .letraaston{
     font-size: 108%;
     color: #147900;
+    text-shadow: 5px 6px 5px #0f9e17;
 }
 
 .texto-mclaren{
@@ -90,6 +97,7 @@ justify-content: center;
 .letra-mclaren{
     font-size: 50%;
     color: #cf8e00;
+    text-shadow: 5px 6px 4px #cf8e00;
 }
 
 .texto-f1{
@@ -103,6 +111,7 @@ justify-content: center;
 .letra-f1{
     font-size: 50%;
     color: #990505;
+    text-shadow: 5px 6px 4px #201f1f;
 }
 
 .texto-mercedes{
@@ -116,6 +125,7 @@ justify-content: center;
 .letra-mercedes{
     font-size: 50%;
     color: #201f1f;
+    text-shadow: 5px 6px 4px #201f1f;
 }
 
 .texto-redbull{
@@ -129,6 +139,7 @@ justify-content: center;
 .letra-redbull{
     font-size: 50%;
     color: #005cb3;
+    text-shadow: 5px 6px 4px #005cb3;
 }
 
 .circuito{
@@ -137,6 +148,7 @@ justify-content: center;
     padding-bottom: 3%;
     padding-top: 3%;
     color: #f5bc03;
+    text-shadow: 5px 6px 5px #cfbb00;
 }
 .link-circuito{
     padding-top: 1.5em;
@@ -150,7 +162,7 @@ justify-content: center;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     background-color: #000000;
-    margin: 1em;
+    text-align: 1em;
     padding: 1em;
 }
 
@@ -177,10 +189,10 @@ justify-content: center;
 }
 
 .espacio-logos{
-    width: 5em;
+    width: 4em;
 }
 .vegas {
-    width: 90em;
+    width: 70em;
 }
 
 .camiseta {
