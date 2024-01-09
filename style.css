@@ -1,36 +1,61 @@
 .fondo {
-    background-color: rgb(255, 236, 236);
+    background-color: white(255, 236, 236);
     text-align: center;
-    border-color: white;
-    border: 3em solid rgb(151, 2, 2);
 }
 
 body{
  padding: 0%;
 }
 
-.titulo {
-    background-color: white;
-    padding-bottom: 10%;
-    padding-top: 7%;
-    
+.caja-mercedes{
+    margin-right: 30px;
+    margin-left: 30px;
 }
-.letratitulo{
-    font-size: 400%;
-    text-shadow: 10px 6px 5px #000000;
+
+.caja-redbull{
+    margin-right: 30px;
+    margin-left: 30px;
 }
+
+.caja-ferrari{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.caja-mclaren{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.caja-alfaromeo{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.caja-astonmartin{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.caja-alpine{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.caja-alphatauri{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.caja-williams{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
 
 .Comprar-por-equipos{
     padding-top: 15em;
     padding-bottom: 1%;
     text-align: right 39%;
     font-style: oblique;
+    font: oblique bold 120% cursive;
 }
-.letraequipos{
-    font-size: 3em;
-    color: #990505;
-    text-shadow: 5px 9px 5px #6b0707;
-}
+
 
 .caja-equipos {
     border: 0.2em solid white;
@@ -53,66 +78,36 @@ justify-content: center;
 .caja-equipos li { 
     display: inline-block; text-decoration:  none;
 }
-.vegas-publicidad li {
+.end-of-season li {
     display: inline-block; text-decoration:  none;
 }
 
-.texto-vegas{
-    text-align: left;
+.end-of-season{
+    position: relative;
+    height: auto;        
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+    right: 25px;
+
+}
+
+.texto-popular{
+    position: relative;
     font-size: 3em;
-    font-style:oblique;
     padding-bottom: 3%;
-    padding-top: 7%;
-    color:#975d06;
-    text-shadow: 5px 1px 5px #da710f;
+    right: 390px;
+    font-weight: bold;
 }
 
-.letra-vegas{
-   text-align: left;
-}
-
-.texto-aston{
+.texto-departamento{
+    position: relative;
     font-size: 3em;
-    font-style:oblique;
     padding-bottom: 3%;
-    padding-top: 7%;
-    color:#147900;
-    margin-top: 0.2%;
+    right: 390px;
+    font-weight: bold;
 }
 
-.letraaston{
-    font-size: 108%;
-    color: #147900;
-    text-shadow: 5px 6px 5px #0f9e17;
-}
-
-.texto-mclaren{
-    font-size: 3em;
-    font-style:oblique;
-    padding-bottom: 3%;
-    padding-top: 5%;
-    color:#f78e05;
-}
-
-.letra-mclaren{
-    font-size: 50%;
-    color: #cf8e00;
-    text-shadow: 5px 6px 4px #cf8e00;
-}
-
-.texto-f1{
-    font-size: 3em;
-    font-style:oblique;
-    padding-bottom: 3%;
-    padding-top: 5%;
-    color:#990505;
-}
-
-.letra-f1{
-    font-size: 50%;
-    color: #990505;
-    text-shadow: 5px 6px 4px #201f1f;
-}
 
 .texto-mercedes{
     font-size: 3em;
@@ -142,59 +137,56 @@ justify-content: center;
     text-shadow: 5px 6px 4px #005cb3;
 }
 
-.circuito{
-    font-size: 2em;
-    font-style:oblique;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    color: #f5bc03;
-    text-shadow: 5px 6px 5px #cfbb00;
-}
-.link-circuito{
-    padding-top: 1.5em;
+.Popular-publicidad{
+    position: relative;
+    height: auto;        
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+    right: 25px;
 }
 
 .Popular-publicidad li {
     display: inline-block;text-decoration: none;
-    border: 2% #000000;
-    border-bottom-left-radius: 1em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    background-color: #000000;
-    text-align: 1em;
-    padding: 1em;
+    font-family: "Open Sans",sans-serif;
 }
 
 .Ultimo-publicidad {
+    position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0fr 0fr;
+    margin: 0px;
+    padding: 0px;
 }
 
 .Ultimo-publicidad-2 {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .Ultimo-publicidad li {
     display: inline-block; text-decoration:  none;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .Ultimo-publicidad-2 li {
     display: inline-block; text-decoration:  none;
 }
 
+.imagen {
+    
+}
+
 .logos {
     width: 5em;
 }
 
-.espacio-logos{
-    width: 4em;
-}
-.vegas {
-    width: 70em;
+.foto-end-of-season {
+    width: 1303x;
 }
 
-.camiseta {
-    width: 40em;
+.gorros {
+    width: 1303px;
 }
