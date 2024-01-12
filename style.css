@@ -7,6 +7,50 @@ body{
  padding: 0%;
 }
 
+
+#thumbwrap {
+    width:2px;
+    height:2px;
+    
+}
+.thumb img { 
+	border:1px solid #000;
+	margin:3px;
+	float:left;
+    width: 1320px;
+   
+
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0; left:250px; 
+	z-index:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .caja-mercedes{
     margin-right: 30px;
     margin-left: 30px;
@@ -78,9 +122,12 @@ justify-content: center;
 .caja-equipos li { 
     display: inline-block; text-decoration:  none;
 }
-.end-of-season li {
-    display: inline-block; text-decoration:  none;
-}
+
+
+
+
+
+
 
 .end-of-season{
     position: relative;
@@ -88,7 +135,6 @@ justify-content: center;
     -ms-interpolation-mode: bicubic;
     display: inline-block;
     vertical-align: middle;
-    right: 25px;
 
 }
 
@@ -108,85 +154,34 @@ justify-content: center;
     font-weight: bold;
 }
 
-
-.texto-mercedes{
-    font-size: 3em;
-    font-style:oblique;
-    padding-bottom: 3%;
-    padding-top: 5%;
-    color:#201f1f;
-}
-
-.letra-mercedes{
-    font-size: 50%;
-    color: #201f1f;
-    text-shadow: 5px 6px 4px #201f1f;
-}
-
-.texto-redbull{
-    font-size: 3em;
-    font-style:oblique;
-    padding-bottom: 3%;
-    padding-top: 5%;
-    color:#005cb3;
-}
-
-.letra-redbull{
-    font-size: 50%;
-    color: #005cb3;
-    text-shadow: 5px 6px 4px #005cb3;
-}
-
 .Popular-publicidad{
-    position: relative;
     height: auto;        
     -ms-interpolation-mode: bicubic;
     display: inline-block;
     vertical-align: middle;
-    right: 25px;
-}
-
-.Popular-publicidad li {
-    display: inline-block;text-decoration: none;
-    font-family: "Open Sans",sans-serif;
 }
 
 .Ultimo-publicidad {
-    position: relative;
     display: grid;
-    grid-template-columns: 0fr 0fr;
-    margin: 0px;
-    padding: 0px;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 .Ultimo-publicidad-2 {
-    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.Ultimo-publicidad li {
-    display: inline-block; text-decoration:  none;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.Ultimo-publicidad-2 li {
-    display: inline-block; text-decoration:  none;
-}
-
-.imagen {
-    
+.libro-publicidad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
 }
 
 .logos {
     width: 5em;
 }
 
-.foto-end-of-season {
-    width: 1303x;
-}
-
 .gorros {
-    width: 1303px;
+    width: 1343px;
 }
