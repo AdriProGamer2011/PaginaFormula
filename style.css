@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
 .fondo {
     background-color: white(255, 236, 236);
     text-align: center;
@@ -8,27 +15,133 @@ body{
 }
 
 
-#thumbwrap {
-    width:2px;
-    height:2px;
-    
+.item {
+    position: relative;
+    float: left;
+    color:black;
+    padding: 1em;
+    z-index: 1;
+    font: condensed 120% sans-serif;
+
+  }
+  
+.subitem{
+    background-color: white; 
+    z-index: 9999999999;    
+    padding: 1em;
 }
+
+.submenu { display: none;}
+  
+  
+  #menu {
+    position: relative;
+    z-index: 9999999999;
+    font-size: 0.99em;
+  }
+  
+  #menu:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+  
+ a {
+ text-decoration: none;
+ color: #000;
+ }
+  
+
+  .item:hover > .submenu {
+    position: absolute;
+    display: block;
+    width: auto;
+
+    
+  }
+
+  #menu:hover .item:hover{
+    background-color: rgb(167, 167, 167);
+  }
+
+  .subitem:hover{
+    background-color: rgb(167, 167, 167);
+
+  }
+
+.item:hover .submenu {
+    
+        font: bold 90% monospace;
+        border: thin solid gray;
+        z-index: 99999999999;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;    
+background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#thumbwrap { 
+    height: 50px;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+
+.bolas {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#thumbwrap:hover .bolas {
+    display: block;
+    left: 33%;
+    right: 0;
+    width: 500px;
+    z-index: 9999999999;
+
+}
+
+
+
 .thumb img { 
 	border:1px solid #000;
 	margin:3px;
-	float:left;
-    width: 1320px;
+    width: 1335px;
    
 
 }
 .thumb span { 
 	position:absolute;
 	visibility:hidden;
+  
 }
+
 .thumb:hover, .thumb:hover span { 
 	visibility:visible;
 	top:0; left:250px; 
 	z-index:1;
+  
 }
 
 
@@ -159,6 +272,8 @@ justify-content: center;
     -ms-interpolation-mode: bicubic;
     display: inline-block;
     vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .Ultimo-publicidad {
@@ -184,4 +299,8 @@ justify-content: center;
 
 .gorros {
     width: 1343px;
+}
+
+#Logos-principio {
+    margin-top: -250px;
 }
