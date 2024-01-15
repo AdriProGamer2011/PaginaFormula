@@ -22,6 +22,7 @@ body{
     padding: 1em;
     z-index: 1;
     font: condensed 120% sans-serif;
+    
 
   }
   
@@ -29,6 +30,7 @@ body{
     background-color: white; 
     z-index: 9999999999;    
     padding: 1em;
+   
 }
 
 .submenu { display: none;}
@@ -44,7 +46,7 @@ body{
     content: "";
     display: table;
     clear: both;
-
+    border: thin solid black;
   }
   
  a {
@@ -57,29 +59,27 @@ body{
     position: absolute;
     display: block;
     width: auto;
-
+    background-color: white;
     
   }
 
   #menu:hover .item:hover{
     background-color: rgb(167, 167, 167);
+    border: thin solid gray;
   }
 
   .subitem:hover{
     background-color: rgb(167, 167, 167);
+    border: thin solid gray;
 
   }
 
 .item:hover .submenu {
-    
-        font: bold 90% monospace;
-        border: thin solid gray;
-        z-index: 99999999999;
-    
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 100%;    
-background-color: red;
+    font: bold 90% monospace;
+    z-index: 99999999999;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;    
 }
 
 
