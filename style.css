@@ -323,11 +323,12 @@ body{
 
 
 .Comprar-por-equipos{
-    padding-top: 15em;
+    padding-top: 3%;
     padding-bottom: 1%;
     text-align: right 39%;
     font-style: oblique;
     font: oblique bold 120% cursive;
+ 
 }
 
 
@@ -409,14 +410,61 @@ justify-content: center;
  
 }
 
+
 .logos {
     width: 5em;
 }
+
 
 .gorros {
     width: 1343px;
 }
 
-#Logos-principio {
+
+
+#Logos-pilotos {
     margin-top: -250px;
 }
+
+
+.Comprar-por-pilotos{
+    position: relative;
+    font-size: 3em;
+    padding-top: 19%;
+    padding-bottom: 2%;
+    right: 390px;
+    font-weight: bold;
+}
+
+
+.caja-pilotos {
+    border: 0.2em solid white;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: white;
+    text-align: 1em;
+    padding: 1em;
+}
+
+.caja-pilotos ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-pilotos li { 
+    display: inline-block; text-decoration:  none;
+}
+
+.logos-pilotos {
+    width: 13.2em;
+}
+
+
+
+
+
+
+
