@@ -438,12 +438,6 @@ justify-content: center;
 
 
 .caja-pilotos {
-    border: 0.2em solid white;
-    border-bottom-left-radius: 1em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    background-color: white;
     text-align: 1em;
     padding: 1em;
 }
@@ -462,9 +456,49 @@ justify-content: center;
     width: 13.2em;
 }
 
+.contenido {
+    padding-left: 100px;
+    padding-right:  100px;
+    padding-top: 50px;
+    background-color: rgb(244, 245, 245);
+    font-size: 1.25em;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.contenido .item-p {
+    color: black;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.huevos {
+    position: relative;
+    right: 36px;
+}
+
+.huevos-insta {
+    position: relative;
+    left: 830px;
+}
+
+.huevos-twitter {
+    position: relative;
+    left: 470px;
+}
 
 
-
-
-
-
+@media screen {
+    
+}
